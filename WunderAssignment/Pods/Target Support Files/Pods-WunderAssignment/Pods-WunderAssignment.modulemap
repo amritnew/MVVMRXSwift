@@ -1,6 +1,0 @@
-framework module Pods_WunderAssignment {
-  umbrella header "Pods-WunderAssignment-umbrella.h"
-
-  export *
-  module * { export * }
-}
