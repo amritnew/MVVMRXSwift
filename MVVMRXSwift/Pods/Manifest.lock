@@ -1,0 +1,38 @@
+PODS:
+  - KRActivityIndicatorView (3.0.4)
+  - KRProgressHUD (3.4.4):
+    - KRActivityIndicatorView (= 3.0.4)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - SwiftLint (0.38.1)
+
+DEPENDENCIES:
+  - KRProgressHUD
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  KRActivityIndicatorView: 549db10b9578d58bac73db063d8b544e8970f7f2
+  KRProgressHUD: c3b9a48a0ee4824ea13212ac3f1efa50dca021e3
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SwiftLint: 0aeb99ca7ccfc222ef93e2560a35e669f5465e6c
+
+PODFILE CHECKSUM: 10326aa3b242a0e1c78fe49708d105e0a6ddfb15
+
+COCOAPODS: 1.8.3
