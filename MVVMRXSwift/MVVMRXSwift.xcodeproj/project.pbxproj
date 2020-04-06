@@ -28,6 +28,9 @@
 		65261A1923A76F0F00CC9FC1 /* CarListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65261A1823A76F0F00CC9FC1 /* CarListViewModelTest.swift */; };
 		65261A1D23A7716900CC9FC1 /* Location.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65261A1C23A7716900CC9FC1 /* Location.txt */; };
 		65261A1F23A77D5C00CC9FC1 /* CarMapViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65261A1E23A77D5C00CC9FC1 /* CarMapViewModelTest.swift */; };
+		65D0F961243AF4B9000049E8 /* DetailView.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0F95E243AF4B8000049E8 /* DetailView.png */; };
+		65D0F962243AF4B9000049E8 /* MasterView.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0F95F243AF4B8000049E8 /* MasterView.png */; };
+		65D0F963243AF4B9000049E8 /* SplashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D0F960243AF4B9000049E8 /* SplashScreen.png */; };
 		65E54AB324387C6300AEA8B3 /* Location.json in Resources */ = {isa = PBXBuildFile; fileRef = 65E54AB224387C6300AEA8B3 /* Location.json */; };
 		A364CAE781F18B2EED824D52 /* Pods_MVVMRXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB610FC189BF16623A518097 /* Pods_MVVMRXSwift.framework */; };
 		F9EE8096C90701A84DCE5452 /* Pods_MVVMRXSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0054041A13FD70F18066F50 /* Pods_MVVMRXSwiftTests.framework */; };
@@ -72,6 +75,9 @@
 		65261A1823A76F0F00CC9FC1 /* CarListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewModelTest.swift; sourceTree = "<group>"; };
 		65261A1C23A7716900CC9FC1 /* Location.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Location.txt; sourceTree = "<group>"; };
 		65261A1E23A77D5C00CC9FC1 /* CarMapViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMapViewModelTest.swift; sourceTree = "<group>"; };
+		65D0F95E243AF4B8000049E8 /* DetailView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailView.png; sourceTree = "<group>"; };
+		65D0F95F243AF4B8000049E8 /* MasterView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MasterView.png; sourceTree = "<group>"; };
+		65D0F960243AF4B9000049E8 /* SplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen.png; sourceTree = "<group>"; };
 		65E54AB224387C6300AEA8B3 /* Location.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Location.json; sourceTree = "<group>"; };
 		682663ADEFDA21E1EEA72238 /* Pods-MVVMRXSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRXSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMRXSwiftTests/Pods-MVVMRXSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B745920AA774D46FBFA7B7B /* Pods-MVVMRXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRXSwift.debug.xcconfig"; path = "Target Support Files/Pods-MVVMRXSwift/Pods-MVVMRXSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +141,7 @@
 		652619CD239E3E2200CC9FC1 /* MVVMRXSwift */ = {
 			isa = PBXGroup;
 			children = (
+				65D0F95D243AF4A3000049E8 /* Images */,
 				65261A07239E43B600CC9FC1 /* Utility */,
 				65261A06239E428200CC9FC1 /* Models */,
 				65261A05239E427A00CC9FC1 /* ViewModels */,
@@ -207,6 +214,16 @@
 				65261A1623A6C9F000CC9FC1 /* Extensions.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		65D0F95D243AF4A3000049E8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				65D0F95E243AF4B8000049E8 /* DetailView.png */,
+				65D0F95F243AF4B8000049E8 /* MasterView.png */,
+				65D0F960243AF4B9000049E8 /* SplashScreen.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		D450F6F497F4F8E916F748D4 /* Pods */ = {
@@ -310,10 +327,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				652619DB239E3E2700CC9FC1 /* LaunchScreen.storyboard in Resources */,
+				65D0F962243AF4B9000049E8 /* MasterView.png in Resources */,
 				65E54AB324387C6300AEA8B3 /* Location.json in Resources */,
 				652619D8239E3E2700CC9FC1 /* Assets.xcassets in Resources */,
 				65261A03239E41C300CC9FC1 /* Podfile in Resources */,
 				652619D6239E3E2200CC9FC1 /* Main.storyboard in Resources */,
+				65D0F963243AF4B9000049E8 /* SplashScreen.png in Resources */,
+				65D0F961243AF4B9000049E8 /* DetailView.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
