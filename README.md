@@ -23,3 +23,5 @@ This app uses MVVM architecture and project directory in the Xcode Project Navig
 **Utility**:  Extension, enums, constant used throughout app are placed here
 
 **Services**:  This is the network layer used in the app to fetch data.
+
+![](MVVMRXSwift/MVVMRXSwift/MVVMRXSwift/Images/App_flow.png)
