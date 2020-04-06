@@ -28,6 +28,7 @@
 		65261A1923A76F0F00CC9FC1 /* CarListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65261A1823A76F0F00CC9FC1 /* CarListViewModelTest.swift */; };
 		65261A1D23A7716900CC9FC1 /* Location.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65261A1C23A7716900CC9FC1 /* Location.txt */; };
 		65261A1F23A77D5C00CC9FC1 /* CarMapViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65261A1E23A77D5C00CC9FC1 /* CarMapViewModelTest.swift */; };
+		65E54AB324387C6300AEA8B3 /* Location.json in Resources */ = {isa = PBXBuildFile; fileRef = 65E54AB224387C6300AEA8B3 /* Location.json */; };
 		A364CAE781F18B2EED824D52 /* Pods_MVVMRXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB610FC189BF16623A518097 /* Pods_MVVMRXSwift.framework */; };
 		F9EE8096C90701A84DCE5452 /* Pods_MVVMRXSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0054041A13FD70F18066F50 /* Pods_MVVMRXSwiftTests.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		65261A1823A76F0F00CC9FC1 /* CarListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewModelTest.swift; sourceTree = "<group>"; };
 		65261A1C23A7716900CC9FC1 /* Location.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Location.txt; sourceTree = "<group>"; };
 		65261A1E23A77D5C00CC9FC1 /* CarMapViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMapViewModelTest.swift; sourceTree = "<group>"; };
+		65E54AB224387C6300AEA8B3 /* Location.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Location.json; sourceTree = "<group>"; };
 		682663ADEFDA21E1EEA72238 /* Pods-MVVMRXSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRXSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMRXSwiftTests/Pods-MVVMRXSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B745920AA774D46FBFA7B7B /* Pods-MVVMRXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRXSwift.debug.xcconfig"; path = "Target Support Files/Pods-MVVMRXSwift/Pods-MVVMRXSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		D0054041A13FD70F18066F50 /* Pods_MVVMRXSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRXSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 		652619F2239E401000CC9FC1 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				65E54AB224387C6300AEA8B3 /* Location.json */,
 				65261A00239E418B00CC9FC1 /* APIServices.swift */,
 			);
 			path = Services;
@@ -307,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				652619DB239E3E2700CC9FC1 /* LaunchScreen.storyboard in Resources */,
+				65E54AB324387C6300AEA8B3 /* Location.json in Resources */,
 				652619D8239E3E2700CC9FC1 /* Assets.xcassets in Resources */,
 				65261A03239E41C300CC9FC1 /* Podfile in Resources */,
 				652619D6239E3E2200CC9FC1 /* Main.storyboard in Resources */,
